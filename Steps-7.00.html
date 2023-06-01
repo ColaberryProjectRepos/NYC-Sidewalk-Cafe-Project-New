@@ -1,0 +1,23 @@
+
+Part Four: Cleaning Data
+7
+<p><span style="font-family: Arial, sans-serif; font-size: 10pt;"><b><u>Cleaning Data:
+Configuring Source and Sort transformation</u></b></span></p><ol><li><span style="font-family: Arial, sans-serif; font-size: 10pt;">Drag and Drop these
+tools Form the SSIS Tool Box</span></li><li>Create a new package In the solution explorer</li><li><span style="font-family: Arial, sans-serif; font-size: 10pt;">Select the Staging
+data base source.</span></li><li><span style="font-family: Arial, sans-serif; font-size: 10pt;">Select the staging
+table.</span></li><li><span style="font-family: Arial, sans-serif; font-size: 10pt;">Verify the mappings
+are correct</span></li><li><span style="font-family: Arial, sans-serif; font-size: 10pt;">Connect the source to
+the sort transformation.</span></li><li><span style="font-family: Arial, sans-serif; font-size: 10pt;">Choose the license
+number column to sort by and in Ascending order.</span></li><li><span style="font-family: Arial, sans-serif; font-size: 10pt;">Select the remove
+duplicates box then click okay.</span></li><li><span style="font-family: Arial, sans-serif; font-size: 10pt;">Connect Sort
+transformation to Conditional split transformation.</span></li></ol><p><img src="https://app.colaberry.com/uploads/ProjectStepsImages/1202/19/1.jpg" style="width: 100%;"></p><p><br></p><p><img src="https://app.colaberry.com/uploads/ProjectStepsImages/1202/19/2.jpg" style="width: 100%;"><span style="font-family: Arial, sans-serif; font-size: 10pt;"><br></span></p><p><span style="font-family: Arial, sans-serif; font-size: 10pt;"><br></span></p><p><img src="https://app.colaberry.com/uploads/ProjectStepsImages/1202/19/3.jpg" style="width: 100%;"><span style="font-family: Arial, sans-serif; font-size: 10pt;"><br></span></p><p><span style="font-size: 10pt; font-family: Arial, sans-serif;"><b><u>Cleaning Data: Configuring Conditional Split</u></b><o:p></o:p></span></p><ol><li><span style="font-size: 10pt; font-family: Arial, sans-serif;">Select the conditional split transformation.</span></li><li>Create the name for the output and copy the
+condition under the condition box and rename the default output name.</li><li>Connect the conditional split to the two
+destination one for the null check and not null records</li><li>Connect the Not null and Null check to the 2 destinations.</li></ol><p><img src="https://app.colaberry.com/uploads/ProjectStepsImages/1202/19/4.jpg" style="width: 100%;"></p><p><br></p><p><span style="font-size: 10pt; font-family: Arial, sans-serif;"><b><u>Cleaning Data: Configuring Destination</u></b><o:p></o:p></span></p><ol><li><span style="font-size: 10pt; font-family: Arial, sans-serif;">Select the destination for the not null records</span></li><li>Select the connection staging database</li><li>Select new to create the table for the clean
+records</li><li>Rename the name of the cleaned staging table</li><li>Verify the mapping is correct</li><li>Select the Null check destination then Select
+the connection staging database</li><li>Select new to create the table for the clean
+records</li><li>Select new to create the table for the Dirty
+records</li><li>Verify the mapping is correct</li><li>Run the Package</li><li>Select the tables in SSMS to verify the loaded
+data</li></ol><p><img src="https://app.colaberry.com/uploads/ProjectStepsImages/1202/19/5.jpg" style="width: 100%;"></p><p><br></p><p><img src="https://app.colaberry.com/uploads/ProjectStepsImages/1202/19/6.jpg" style="width: 100%;"></p><p><br></p><p><img src="https://app.colaberry.com/uploads/ProjectStepsImages/1202/19/7.jpg" style="width: 100%;"></p><p><br></p>
+
+<p>How to Clean Data using SSIS:&nbsp;<a href="https://www.youtube.com/watch?v=8psqkAhtQJ8&amp;t=685s&amp;ab_channel=LGITSmartSolutions" target="_blank">https://www.youtube.com/watch?v=8psqkAhtQJ8&amp;t=685s&amp;ab_channel=LGITSmartSolutions</a>&nbsp;</p>
+
